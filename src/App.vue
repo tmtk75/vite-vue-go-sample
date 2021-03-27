@@ -1,11 +1,11 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
-
   <hr />
 
   <router-link to="/">Home</router-link> |
-  <router-link :to="{ name: 'About' }">About</router-link>
+  <router-link :to="{ name: 'About' }">About</router-link> |
+  <router-link to="/user/greg">Greg</router-link> |
+  <router-link to="/user/bob">Bob</router-link>
   <router-view />
 </template>
 
