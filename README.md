@@ -25,3 +25,16 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 3. Open `src/main.ts` in VSCode
 4. Open the VSCode command palette
 5. Search and run "Select TypeScript version" -> "Use workspace version"
+
+----
+# Issues
+## vue-tsc fails
+Now it's turned off.
+```
+master:vite-vue-go-sample$ ./node_modules/.bin/vue-tsc --noEmit
+src/components/UserProfile.vue:2:11 - error TS2304: Cannot find name '$route'.
+
+2   <div>{{ $route.params.name }}'s profile</div>
+            ~~~~~~
+...
+```
