@@ -7,7 +7,7 @@
     <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
   </p>
 
-  <button @click="count++">count is: {{ count }}</button>
+  <el-button @click="count++">count is: {{ count }}</el-button>
 </template>
 
 <script lang="ts">

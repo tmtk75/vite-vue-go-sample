@@ -7,6 +7,10 @@
   <router-link to="/user/greg">Greg</router-link> |
   <router-link to="/user/bob">Bob</router-link>
   <router-view />
+
+  <hr />
+
+  <el-button type="primary">Primary</el-button>
 </template>
 
 <script lang="ts">
